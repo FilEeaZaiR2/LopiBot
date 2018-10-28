@@ -23,7 +23,7 @@ client.on("ready", () => {
     setTimeout(game1, 30000);
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
 
 let prefix = config.prefix;
 
